@@ -1,0 +1,43 @@
+body {
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a{
+    text-decoration: none;
+    font-size: 25px;
+    color: ivory;
+    display: block;
+    padding: 6px 8px 6px 16px;
+    color: #818181;
+    transition: 0.3s;
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 36px;
+    padding: 0px 18px 0px 50px;
+}
+
+span{
+    font-size:30px;
+    cursor:pointer;
+    color: #111111;
+}
